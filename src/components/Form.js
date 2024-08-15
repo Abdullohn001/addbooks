@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import { TiDeleteOutline } from "react-icons/ti";
 
 function Form() {
   const [books, setBooks] = useState([]);
@@ -155,7 +154,7 @@ function Form() {
                     onClick={() => handleDelete(book.id)}
                     className="text-red-500 hover:text-red-700"
                   >
-                    <TiDeleteOutline size={24} />
+                    
                   </button>
                 </li>
               ))
